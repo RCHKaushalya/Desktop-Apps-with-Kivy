@@ -12,24 +12,24 @@ Each project listed below represents a key milestone in my learning journey. Cli
 | # | Project | Key Concepts |
 |--:|---------|--------------|
 | 1 | [Digital Clock](./01_digital_clock/) | Real-time updates, Kivy basics |
-| 2 | [To-Do List App](./02_todo_list/) | Input fields, data saving, layouts |
-| 3 | [Weather Dashboard](./03_weather_app/) | APIs, KivyMD, theming |
+| 2 | [To-Do List App] | Input fields, data saving, layouts |
+| 3 | [Weather Dashboard] | APIs, KivyMD, theming |
 
 ---
 
 ### ⚙️ Intermediate Builds
 | # | Project | Key Concepts |
 |--:|---------|--------------|
-| 4 | [Expense Tracker](./04_expense_tracker/) | SQLite, data visualizations |
-| 5 | [Multi-Tool Suite](./05_multi_tool_suite/) | Navigation, modularity |
-| 6 | [Packaged App](./06_packaged_expense_tracker/) | PyInstaller / Buildozer packaging |
+| 4 | [Expense Tracker] | SQLite, data visualizations |
+| 5 | [Multi-Tool Suite] | Navigation, modularity |
+| 6 | [Packaged App]| PyInstaller / Buildozer packaging |
 
 ---
 
 ### 🚀 Advanced Desktop Tools
 | # | Project | Key Concepts |
 |--:|---------|--------------|
-| 7 | [Chat App](./07_chat_app/) | Sockets, async IO |
+| 7 | [Chat App] | Sockets, async IO |
 | 8 | [Stock Tracker](./08_stock_tracker/) | API polling, background threads |
 | 9 | [Markdown Editor](./09_markdown_editor/) | Plugins, syntax highlighting |
 |10 | [AI Summarizer](./10_ai_summarizer/) | NLP, drag-drop UX |
@@ -40,9 +40,9 @@ Each project listed below represents a key milestone in my learning journey. Cli
 ### 🎧 Utility Series
 | # | Project | Key Concepts |
 |--:|---------|--------------|
-|12 | [Music Player](./12_music_player/) | Audio playback, playlist support |
-|13 | [File Explorer](./13_file_explorer/) | File navigation, operations |
-|14 | [Code/Text Editor](./14_text_editor/) | Tabs, autosave, export features |
+|12 | [Music Player] | Audio playback, playlist support |
+|13 | [File Explorer]| File navigation, operations |
+|14 | [Code/Text Editor] | Tabs, autosave, export features |
 
 ---
 

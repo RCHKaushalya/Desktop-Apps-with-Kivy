@@ -57,7 +57,7 @@ Each project listed below represents a key milestone in my learning journey. Cli
 ## 🔖 Goals
 
 - Master desktop UI/UX development using Python  
-- Showcase real-world skills on [GitHub](https://github.com/your-profile) and LinkedIn  
+- Showcase real-world skills on [GitHub](https://github.com/RCHKaushalya) and LinkedIn  
 - Build reusable, well-documented code and applications  
 - Open source knowledge for fellow learners
 
@@ -71,5 +71,5 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ## 🤝 Connect With Me
 
-If you're building something similar or want to collaborate, feel free to [reach out](mailto:your@email.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/your-profile)!
+If you're building something similar or want to collaborate, feel free to [reach out](mailto:rchkaushalya@gemail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/rasindu-appuhami-118891337/)!
 

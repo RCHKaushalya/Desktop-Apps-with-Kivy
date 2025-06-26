@@ -1,0 +1,76 @@
+<TitleBar@BoxLayout>:
+    size_hint_y: None
+    height: '40dp'
+    padding: 10
+    spacing: 10
+    canvas.before:
+        Color:
+            rgba: app.theme_color
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    
+    # Left side buttons
+    BoxLayout:
+        size_hint_x: None
+        width: '120dp'
+        spacing: 10
+
+        ImageButton:
+            source: 'assets/close.png'
+            on_release: app.stop()
+        
+        ImageButton:
+            source: 'assets/minimize.png'
+            on_release: app.minimize()
+        
+        ImageButton:
+            source: 'assets/maximize.png'
+            on_release: app.maximize()
+    
+    # App Title
+    Label:
+        text: 'Digital Clock'
+        color: app.text_color
+        halign: 'center'
+        valign: 'middle'
+        bold: True
+    
+    # Theme Toggle
+    BoxLayout:
+        size_hint_x: None
+        width: '40dp'
+        ImageButton:
+            source: 'assets/sun.png'
+            on_release: app.toggle_theme()
+
+        
+
+<ImageButton@ButtonBehavior+Image>:
+    size_hint: None, None
+    size: '24dp', '24dp'
+    allow_stretch: True
+    keep_ratio: True
+
+<MyClock>:
+    orientation: 'vertical'
+    padding: 20
+    spacing: 10
+    canvas.before:
+        Color:
+            rgba: 0.1, 0.1, 0.1, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    
+    #Title bar
+    TitleBar:
+    
+    # Clock Display
+    Label:
+        id: time_label
+        text: '00:00:00'
+        font_size: '64sp'
+        color: 1, 1, 1, 1
+        halign: 'center'
+        valign: 'middle'
